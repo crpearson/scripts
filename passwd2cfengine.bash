@@ -14,6 +14,5 @@ do
           printf '"users[%s][gecos]"          string => "%s"; \n' "$f1" "$f5"
           printf '"users[%s][group]"          string => "%s"; \n' "$f1" "$f1"
           printf '"users[%s][directory]"      string => "%s"; \n' "$f1" "$f6"
-          printf '"users[%s][uid]"            string => "%s"; \n' "$f1" "$f1"
-          printf '"users[%s][uid]"            string => "%s"; \n \n' "$f1" "$altshell"
+          printf '"users[%s][shell]"          string => "%s"; \n \n' "$f1" "$altshell"
 done <"$file"
