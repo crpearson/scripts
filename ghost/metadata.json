@@ -1,0 +1,39 @@
+{
+  "name": "ghost",
+  "description": "Installs and configures a Ghost blog",
+  "long_description": "",
+  "maintainer": "Christian Nunciato",
+  "maintainer_email": "chris@nunciato.org",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 12.04",
+    "centos": ">= 6.5"
+  },
+  "dependencies": {
+    "apt": ">= 0.0.0",
+    "build-essential": ">= 0.0.0",
+    "nodejs": "~> 1.3.0",
+    "chef-vault": ">= 0.0.0",
+    "sqlite": ">= 0.0.0",
+    "nginx": ">= 0.0.0",
+    "runit": ">= 0.0.0",
+    "git": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.1"
+}
